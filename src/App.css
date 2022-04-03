@@ -3,13 +3,11 @@
   width:500px;
   height: 400px;
   justify-content: center;
-  align-content: center;
   margin:2rem auto 1rem;
   display: grid;
   grid-template-columns: 2fr 4fr;
   grid-template-rows: 2fr repeat(3, 1fr) 1fr;
   background: radial-gradient( rgb(255, 255, 255), aqua);
-  /* background-color: aqua; */
   border-radius: 1rem;
   box-shadow: 5px 5px 3px rgb(26, 171, 181), 10px 10px 3px rgb(109, 196, 202),15px 15px 3px rgb(179, 208, 211),20px 20px 3px rgb(185, 246, 250);
 }
@@ -19,10 +17,8 @@
 }
 .header{
   margin: auto;
-
 }
 .img{
-  /* background-color: black; */
   margin-left: 60px;
   width: 40px;
 }
@@ -50,5 +46,4 @@ button:hover{
   background-color: antiquewhite;
   font-size: large;
   transition: background-color .7s ease-in-out, color .7s ease-in-out;
-  /* transition: color .7s ease-in-out; */
 }

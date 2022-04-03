@@ -15,8 +15,6 @@ function App() {
   const [date, setDate] = useState("");
   
   
-  
-  // console.log(user);
   const axiosRandomUser = () => {
     axios("https://randomuser.me/api/").then((res) => {
       setName(res.data.results[0].name);
