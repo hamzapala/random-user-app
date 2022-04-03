@@ -25,7 +25,7 @@ function App() {
       setPhone(res.data.results[0].phone);
       setCity(res.data.results[0].location.city);
       setAge(res.data.results[0].dob.age);
-      setDate(res.data.results[0].dob.date);
+      setDate(res.data.results[0].registered.date);
     });
   };
 
